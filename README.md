@@ -1,16 +1,23 @@
-# thank_you_application
+# Thank You Application
 
-A new Flutter project.
+A simple Flutter app that displays a "Thank You" image centered on a white screen.
 
-## Getting Started
+## Preview
+A stick figure holding a **"THANK YOU"** sign on a clean white background.
 
-This project is a starting point for a Flutter application.
+## Run
+```bash
+flutter pub get
+flutter run
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Built With
+- Flutter & Dart
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Asset Setup
+Add this to `pubspec.yaml`:
+```yaml
+flutter:
+  assets:
+    - assets/Images/thank_you.jpeg
+```
