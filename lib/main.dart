@@ -10,7 +10,9 @@ class ThankYouCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
+        backgroundColor: const Color(0xFFFFFFFF),
         body: Image(image: AssetImage('assets/Images/thank_you.jpeg')),
       ),
     );
